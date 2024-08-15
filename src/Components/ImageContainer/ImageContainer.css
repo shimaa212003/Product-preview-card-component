@@ -1,0 +1,12 @@
+#ImageDiv{
+ 
+    width: 50%;
+   height: 350px;
+}
+#MyImg{
+     width:20em ;
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+}

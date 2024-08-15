@@ -1,0 +1,96 @@
+#DetailsDiv{
+    width: 50%;
+    
+    background-color:hsl(0, 0%, 100%) ;
+   
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+   
+
+    border-radius:0 10px 10px 0px ;
+   
+
+}
+
+#product{
+    width: 18em;
+    padding: 2em;
+}
+
+#title{
+
+
+text-transform: uppercase;
+letter-spacing: 5px;
+padding-bottom: 1em;
+}
+
+#header{
+  
+    padding: 0 0 0.5em;
+    font-family: "Fraunces", serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 1.5rem;
+}
+
+#derection{
+  
+    line-height: 1.5;
+    font-size: 0.875em;
+
+}
+
+#priceDiv{
+   
+    display: flex;
+    padding: 1em 0;
+    align-items: center;
+
+}
+#price{
+/* 
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 30px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+    font-family: "Fraunces", serif;
+    color:hsl(158, 36%, 37%);
+    font-size: 2.1em
+}
+
+#pricedis{
+    padding-left: 1em;
+    text-decoration: line-through;
+}
+
+#cartbtn{
+    
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+   
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    padding: 1em;
+    border-style: none;
+    width: 100%;
+}
+
+#cartbtn:hover,
+#cartbtn:focus {
+    outline: none;
+    background-color: hsl(158, 45%, 20%);
+}
+
+#cartbtn:active {
+    background-color: hsl(158, 45%, 20%);
+}
+
+#Add{
+    margin-right: 10px;
+}
+
